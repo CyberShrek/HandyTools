@@ -1,4 +1,4 @@
-package com.cybershrek.tools.parser;
+package com.cybershrek.tools;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;

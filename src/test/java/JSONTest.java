@@ -1,4 +1,4 @@
-import com.cybershrek.tools.parser.JSON;
+import com.cybershrek.tools.JSON;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

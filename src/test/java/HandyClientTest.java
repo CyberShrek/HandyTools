@@ -1,4 +1,4 @@
-import com.cybershrek.tools.http.HandyClient;
+import com.cybershrek.tools.HandyClient;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

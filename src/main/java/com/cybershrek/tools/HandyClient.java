@@ -1,4 +1,4 @@
-package com.cybershrek.tools.http;
+package com.cybershrek.tools;
 
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -99,4 +99,10 @@ public class HandyClient {
             return client.sendAsync(request, HttpResponse.BodyHandlers.ofString());
         }
     }
+}
+enum Method {
+    GET,
+    POST,
+    PUT,
+    DELETE
 }
