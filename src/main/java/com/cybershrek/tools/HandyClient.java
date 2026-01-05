@@ -10,7 +10,9 @@ import java.util.concurrent.CompletableFuture;
 
 public class HandyClient {
 
-    private final HttpClient client = HttpClient.newHttpClient();
+    private final HttpClient client = HttpClient.newBuilder()
+            .followRedirects(HttpClient.Redirect.NORMAL)
+            .build();
     private final HttpRequest.Builder builder = HttpRequest.newBuilder()
             .timeout(Duration.ofMinutes(30))
             .header("Content-Type", "application/json");
